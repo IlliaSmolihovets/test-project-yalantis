@@ -1,8 +1,11 @@
 import './App.css';
+import MainPage from "./components/MainPage";
 
-function App() {
+const App = () => {
   return (
-    <div>Hello World</div>
+    <div className="App">
+      <MainPage />
+    </div>
   );
 }
 
